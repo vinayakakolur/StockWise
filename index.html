@@ -1,110 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StockWise - Strategic Business Solutions</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            line-height: 1.6;
-        }
-        .hero {
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('business-bg.jpg');
-            background-size: cover;
-            color: white;
-            text-align: center;
-            padding: 150px 20px;
-        }
-        .hero h1 {
-            font-size: 3.5em;
-            margin-bottom: 20px;
-        }
-        .bold-line {
-            font-size: 1.8em;
-            font-weight: bold;
-            margin: 30px 0;
-            color: #f8f8f8;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .section {
-            padding: 60px 0;
-        }
-        .btn {
-            display: inline-block;
-            background: #0066cc;
-            color: white;
-            padding: 10px 30px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>StockWise</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="hero">
-        <div class="namelogo" style="display: flex; align-items: center; justify-content: center;">
-            <img src="./Logo main white.png" style="height: 100px;">
-            <h1>StockWise</h1>
+
+        <!-- Navigation Bar -->
+    <nav>
+        <div class="content">
+            <div class="logo">
+                <img src="./Logo main white.png">
+            </div>
+            <div class="navLinks">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="bold-line">"Transforming Business Visions into Market Realities"</div>
-        <a href="#contact" class="btn">Get Started Today</a>
+    </nav>
+
+    <!-- Main Landing Page -->
+    <div class="landingPageWrapper">
+        <div class="landingPage">
+            <h1>"Transforming Business Visions into Market Realities"</h1>
+            <div class="button">
+                Contact Us
+            </div>
+        </div>
     </div>
 
-    <div id="vision" class="section">
-        <div class="container">
-            <h2>Our Vision</h2>
-            <p>At StockWise, we envision a business landscape where every entrepreneur has the strategic tools and insights needed to thrive in competitive markets. We aim to be the catalyst for sustainable business growth, helping companies navigate challenges and seize opportunities in an ever-evolving economic environment.</p>
-        </div>
-    </div>
-
-    <div id="mission" class="section" style="background: #f4f4f4;">
-        <div class="container">
-            <h2>Our Mission</h2>
-            <p>Our mission is to empower businesses with data-driven strategies and operational excellence. We commit to delivering tailored solutions that address unique business challenges, foster innovation, and drive measurable results. Through our expertise in business development, competitive analysis, and operational optimization, we help clients achieve their growth objectives with confidence.</p>
-        </div>
-    </div>
-
-    <div id="services" class="section">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="services-grid">
-                <div class="service">
-                    <h3>Business Development</h3>
-                    <p>Comprehensive strategies to expand your market presence, develop new revenue streams, and build sustainable growth models.</p>
+    <!-- Our Services -->
+    <div class="ourServicesWrapper">
+        <div class="ourServices">
+            <h1>Our Services</h1>
+            <div class="ourServicesCards">
+                <div class="card">
+                    <div class="heading">Business Development</div>
+                    <div class="subHeading">Comprehensive strategies to expand your market presence, develop new revenue streams, and build sustainable growth models.</div>
                 </div>
-                <div class="service">
-                    <h3>Competitor Analysis</h3>
-                    <p>In-depth market research and competitive intelligence to help you stay ahead in your industry.</p>
+                <div class="card">
+                    <div class="heading">Competitor Analysis</div>
+                    <div class="subHeading">In-depth market research and competitive intelligence to help you stay ahead in your industry.</div>
                 </div>
-                <div class="service">
-                    <h3>Location Transition Services</h3>
-                    <p>Seamless relocation solutions that minimize downtime and maximize operational continuity when moving your business.</p>
+                <div class="card">
+                    <div class="heading">Location Transition Services</div>
+                    <div class="subHeading">Seamless relocation solutions that minimize downtime and maximize operational continuity when moving your business.</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="why-us" class="section" style="background: #f4f4f4;">
-        <div class="container">
-            <h2>Why Choose StockWise?</h2>
+    <!-- Why Choose us? -->
+     <div class="whyChooseUsWrapper">
+        <div class="whyChooseUs">
+            <h1>Why Choose Us?</h1>
+            <br>
             <p>Choosing StockWise means partnering with a team that combines analytical rigor with creative problem-solving. Our approach blends data-driven insights with innovative thinking to deliver solutions that give you a competitive edge. What sets us apart is our team of enthusiastic entrepreneurs who bring firsthand experience to every project. We don't just consult - we understand the entrepreneurial journey because we've lived it. Our creativity in developing customized solutions ensures that we address your unique challenges rather than offering generic, one-size-fits-all advice.</p>
-            
-            <h3>Our Differentiators</h3>
+            <br><br>
+            <h2>Our Differentiators</h2>
+            <br>
             <ul>
                 <li>Entrepreneurial mindset that understands your challenges</li>
                 <li>Creative solutions tailored to your specific needs</li>
@@ -114,22 +76,37 @@
         </div>
     </div>
 
-    <div id="contact" class="section">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Ready to take your business to the next level? Reach out to our team for a consultation.</p>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-            <p>Or contact us directly at: <strong>vinayakakolur@gmail.com</strong> | <strong>+91 86185 81556</strong></p>
+    <!-- Contact Us -->
+     <div class="contactUsWrapper">
+        <div class="contactUs">
+            <div class="heading">
+                <h1>Contact Us</h1>
+                <h3>Ready to take your business to the next level? Reach out to our team for a consultation.</h6>
+            </div>
+            <div class="contactUsCards">
+                <div class="card">
+                    <img src="./call.png">
+                    <br>
+                    <div class="subHeading">Phone: +91 9876543219</div>
+                </div>
+                <div class="card">
+                    <img src="./email.png">
+                    <br>
+                    <div class="subHeading">Email: vinayakakolur@gmail.com.</div>
+                </div>
+                <div class="card">
+                    <img src="./maps-and-flags.png">
+                    <br>
+                    <div class="subHeading">Location: Mangaluru, Karnataka</div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <footer>
+    <!-- Copyright Section -->
+     <div class="copyrightWrapper">
         <p>Copyright © 2015-2023 StockWise. All rights reserved.</p>
-    </footer>
+     </div>
+
 </body>
 </html>
